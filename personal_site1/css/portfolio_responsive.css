@@ -1,0 +1,49 @@
+@media screen and (max-width: 440px) {
+	div#body_shadow {
+		box-shadow: 5px 5px 40px grey;
+		border-radius: 20px;
+	}
+	label.accomplishments1:hover {
+		color: #DFFA00;
+		cursor: crosshair;
+	}
+	label.accomplishments1:active {
+		color: #DFFA00;
+	}
+	label.accomplishments1#selected {
+		color: #DFFA00;
+	}
+	label.accomplishments1:visited {
+		color: beige;
+	}
+	label.accomplishments2:hover {
+		color: #DFFA00;
+		cursor: crosshair;
+	}
+	label.accomplishments2:active {
+		color: #DFFA00;
+	}
+	label.accomplishments2#selected {
+		color: #DFFA00;
+	}
+	label.accomplishments2:visited {
+		color: beige;
+	}
+	div#accomplishments1, div#accomplishments2 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 440px) {
+/*	div#box_shadow {
+		margin-top: 35px;
+	}*/
+	label.accomplishments1:hover {
+		color: #DFFA00;
+		cursor: crosshair;
+	}
+	label.accomplishments2:hover {
+		color: #DFFA00;
+		cursor: crosshair;
+	}
+}

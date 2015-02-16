@@ -1,0 +1,238 @@
+html body {
+	padding: 0px;
+	margin: 0px;	
+}
+footer {
+	font-style: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+div.container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header.header {
+	text-align: center;
+	position: relative;
+}
+img#brooklynbridge {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: auto;
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	/*transform: rotate(180deg);*/
+
+}
+span#menu {
+	position: relative;
+	font-size: 35px;
+	cursor: crosshair;
+	padding: 10px;
+	color: #DFFA00;
+
+}
+/*section.portfolio {
+	display: block;
+}*/
+/*section.resume {
+	display: none;
+}
+section.contact {
+	display: none;
+}*/
+img#my_image {
+	max-height: 300px;
+	max-width: 200px;
+	margin-top: 50px;
+	border-radius: 50px;
+	opacity: 1;
+	box-shadow: 10px 10px 50px black;
+
+}	
+
+nav a {
+	display: inline;
+	padding: 10px;
+	color: white;
+	font-size: 18px;
+
+}
+
+nav#nav {
+	/*border: 1px solid black;
+	background-color: black;
+	padding: 5px;*/
+	display: none;
+	
+}
+
+nav a:hover {
+	color: beige;
+	text-decoration: none;
+	cursor: crosshair;
+}
+
+nav a.selected {
+	color: #DFFA00;
+	font-size: 20px; 
+}
+
+nav a:active {
+	color: beige;
+}
+
+a#name, a#title {
+	list-style-type: none;
+	color: white;
+	text-decoration: none;
+}
+
+header a {
+	list-style-type: none;
+
+}
+a button#top_button {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	position: fixed;
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+/***********************************
+INDEX PAGE
+***********************************/
+div.twitter_clone, div.personal_site, div.apple_clone {
+	position: relative;
+	z-index: 1;
+	box-shadow: 10px 10px 20px black;
+	margin-top: 20px;
+}
+div.twitter_clone:hover{
+	cursor: crosshair;
+}
+div.personal_site:hover{
+	cursor: crosshair;
+}
+div.apple_clone:hover{
+	cursor: crosshair;
+}
+
+div.twitter_caption, div.personalsite_caption, div.appleclone_caption {
+	position: absolute;
+	display: none;
+	z-index: 0;
+	width: 100%;
+	max-height: 100%;
+	top: 10%;
+
+	text-align: center;
+
+}
+img#twitter_project, img#personalsite_project, img#appleclone_project {
+	height: auto; 
+	width: 100%;
+}
+/***********************************
+RESUME PAGE
+***********************************/
+
+section.resume {
+	text-align: center;
+	line-height: 25px;
+}
+
+.skills, .education, .experience, .profile {
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	display: inline;
+	color: #DFFA00;
+	font-size: 18px;
+	cursor: crosshair;
+}
+
+
+h1#resume {
+	/*border-bottom: 3px solid black;*/
+	/*box-shadow: 5px 5px 20px black;*/
+	border-bottom: 3px solid black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+label.accomplishments1, label.accomplishments2  {
+	font-size: 17px;
+}
+
+div#reference1 a, div#reference2 a, div#reference3 a {
+	color: #DFFA00;
+
+}
+div#reference1, div#reference2, div#reference3 {
+	display: none;
+}
+#am_position {
+	color: #DFFA00;
+	cursor: crosshair;
+
+}
+#csr_position {
+	color: #DFFA00;
+	cursor: crosshair;
+}
+#developer_position {
+	color: #DFFA00;
+	cursor: crosshair;
+}
+/*div#hover_over_position {
+	display: none;
+}*/
+h1, h2, h3, p, label, span, a, img {
+	color: white;
+
+}
+/***********************************
+CONTACT PAGE
+***********************************/
+
+h1#contact_details {
+	text-align: center;
+	/*color: black;*/
+}
+section.contact:hover {
+	color: white;
+	text-decoration: none;
+}
+a#phone_image, a#mail_image, a#twitter_image, a#linkedin_image {
+	max-width: 35px;
+	max-height: 35px;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+p.phone, p.mail, p.twitter, p.linkedin {
+	text-align: center;
+
+}
+

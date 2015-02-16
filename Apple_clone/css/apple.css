@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+nav#top-menu{
+	background-color: black;
+	text-align: center;
+	height: 50px;
+}
+ul.top_menu li{
+	list-style-type: none;
+	display: inline;
+	padding: 0px 2em;
+
+
+}
+ul.top_menu li a{
+	color: white;
+	font-family: avenir;
+}
+#apple-logo-show{
+	width: 5.5em;
+	float: left;
+	visibility: hidden;
+}
+#apple-logo{
+	width: 5.5em;
+}
+a#menu-button{
+	border: none;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background-color: black;
+	color: white;
+	visibility: hidden;
+}
+div#drop-menu{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	display: none;
+}
+nav#drop-menu{
+	background-color: black;
+	text-align: center;
+}
+ul.drop_menu li{
+	list-style-type: none;
+	display: block;
+	padding: .5em;
+}
+ul.drop_menu li a{
+	color: white;
+
+}
+div.main-text h1{
+	text-align: center;
+	font-size: 4.0em;
+	font-family: helvetica-neue;
+}
+div.main-text p{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: helvetica-neue;
+}
+div.main-text a{
+	text-align: center;
+	font-size: 1.0em;
+	font-family: helvetica-neue;
+}
+img#main-image{
+	width: 100%;
+	margin-bottom: 30px;
+}
+section.bottom_images img{
+	height: auto;
+	width: 24.5%;
+	margin-top: 5%;
+}
+footer{
+	clear: both;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	margin: 0 128px 0px 128px;
+	font-size: 0.85em;
+	color: grey;
+
+}
+p#footer-para1{
+	float: left;
+}
+footer ul li{
+	display: inline;
+	list-style-type: none;
+}
+footer ul{
+	float: right;
+	padding-left: 0px;
+}
+footer ul li img{
+	height: 16px;
+	widows: 16px;
+}
+p#footer-para2{
+	clear: both;
+	float: left;
+	color: grey;
+}
+ul.rightFooter li a{
+	color: grey;
+}

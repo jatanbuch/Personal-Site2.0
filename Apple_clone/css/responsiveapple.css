@@ -1,0 +1,50 @@
+@media (min-width: 0px) and (max-width: 1050px){
+		footer{
+		padding-top: 18px;
+		padding-bottom: 18px;
+		margin-left: 20px;
+		margin-right: 0px;
+		font-size: 0.85em;
+	}
+	p#footer-para1{
+		float: left;
+	}
+	footer ul{
+		clear: both;
+		float: left;
+		padding-left: 0px;
+	}
+	footer ul li img{
+		height: 16px;
+		width: 16px;
+	}
+	p#footer-para2{
+		clear: both;
+		float: left;
+	}
+	ul.top_menu{
+		padding: 0;
+		border: 0;
+		display: none;
+	}
+	a#menu-button{
+		border: none;
+		top: 0;
+		right: 0;
+		position: absolute;
+		background-color: black;
+		color: white;
+		visibility: visible;
+	}
+	#apple-logo-show{
+		width: 5.5em;
+		float: left;
+		visibility: visible;
+	}
+	div#drop-menu{
+		display: none;
+	}
+	#searchbox{
+		visibility: hidden;
+	}
+}
